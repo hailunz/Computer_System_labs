@@ -1,0 +1,9 @@
+Script started on Wed 16 Jul 2014 02:52:50 AM EDT
+[?1034hbash-4.1$ gprof ./mdriver.fast
+gmon.out: No such file or directory
+bash-4.1$ gprof ./mdriver.fast[C[C[C[C[1Pmdriver.fast[1Pmdriver.fast
+gmon.out: No such file or directory
+bash-4.1$ exit
+exit
+
+Script done on Wed 16 Jul 2014 03:00:05 AM EDT

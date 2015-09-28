@@ -1,0 +1,386 @@
+Script started on Sun 06 Jul 2014 11:16:49 AM EDT
+[?1034hbash-4.1$ quitrm tsh.c./runtrace -f trace07.txt -s ./tsh[C[C[C[C[C[C[C[C[C[Crm tsh.c[K[4Pquit[K./d[Ksdriver -i -[K1
+Running trace00.txt...
+Running trace01.txt...
+Running trace02.txt...
+Running trace03.txt...
+Running trace04.txt...
+Running trace05.txt...
+Running trace06.txt...
+Running trace07.txt...
+Running trace08.txt...
+Running trace09.txt...
+Oops: test and reference outputs for trace09.txt differed.
+
+Test output:
+#
+# trace09.txt - Send SIGTSTP to foreground job.
+#
+tsh> ./mytstpp
+tsh> jobs
+[1] (7748) Stopped    ./mytstpp
+
+Reference output:
+#
+# trace09.txt - Send SIGTSTP to foreground job.
+#
+tsh> ./mytstpp
+Job [1] (7756) stopped by signal 20
+tsh> jobs
+[1] (7756) Stopped    ./mytstpp
+
+Output of 'diff test reference':
+4a5
+> Job [1] (7756) stopped by signal 20
+6c7
+< [1] (7748) Stopped    ./mytstpp
+---
+> [1] (7756) Stopped    ./mytstpp
+
+Running trace10.txt...
+Running trace11.txt...
+Running trace12.txt...
+Oops: test and reference outputs for trace12.txt differed.
+
+Test output:
+#
+# trace12.txt - Child sends SIGTSTP to itself
+#
+tsh> ./mytstps
+tsh> jobs
+[1] (7826) Stopped    ./mytstps
+
+Reference output:
+#
+# trace12.txt - Child sends SIGTSTP to itself
+#
+tsh> ./mytstps
+Job [1] (7834) stopped by signal 20
+tsh> jobs
+[1] (7834) Stopped    ./mytstps
+
+Output of 'diff test reference':
+4a5
+> Job [1] (7834) stopped by signal 20
+6c7
+< [1] (7826) Stopped    ./mytstps
+---
+> [1] (7834) Stopped    ./mytstps
+
+Running trace13.txt...
+Running trace14.txt...
+Oops: test and reference outputs for trace14.txt differed.
+
+Test output:
+#
+# trace14.txt - Forward SIGTSTP to foreground job only.
+#
+tsh> ./myspin1 10 &
+[1] (7880) ./myspin1 10 &
+tsh> ./mytstpp
+tsh> jobs
+[1] (7880) Running    ./myspin1 10 &
+[2] (7882) Stopped    ./mytstpp
+
+Reference output:
+#
+# trace14.txt - Forward SIGTSTP to foreground job only.
+#
+tsh> ./myspin1 10 &
+[1] (7890) ./myspin1 10 &
+tsh> ./mytstpp
+Job [2] (7892) stopped by signal 20
+tsh> jobs
+[1] (7890) Running    ./myspin1 10 &
+[2] (7892) Stopped    ./mytstpp
+
+Output of 'diff test reference':
+5c5
+< [1] (7880) ./myspin1 10 &
+---
+> [1] (7890) ./myspin1 10 &
+6a7
+> Job [2] (7892) stopped by signal 20
+8,9c9,10
+< [1] (7880) Running    ./myspin1 10 &
+< [2] (7882) Stopped    ./mytstpp
+---
+> [1] (7890) Running    ./myspin1 10 &
+> [2] (7892) Stopped    ./mytstpp
+
+Running trace15.txt...
+Oops: test and reference outputs for trace15.txt differed.
+
+Test output:
+#
+# trace15.txt - Process bg builtin command (one job)
+#
+tsh> ./mytstpp
+trace15.txt: Runtrace timed out waiting for next shell prompt
+Child shell still running.
+
+Reference output:
+#
+# trace15.txt - Process bg builtin command (one job)
+#
+tsh> ./mytstpp
+Job [1] (7915) stopped by signal 20
+tsh> bg %1
+[1] (7915) ./mytstpp
+tsh> jobs
+[1] (7915) Running    ./mytstpp
+
+Output of 'diff test reference':
+5,6c5,9
+< trace15.txt: Runtrace timed out waiting for next shell prompt
+< Child shell still running.
+---
+> Job [1] (7915) stopped by signal 20
+> tsh> bg %1
+> [1] (7915) ./mytstpp
+> tsh> jobs
+> [1] (7915) Running    ./mytstpp
+
+Running trace16.txt...
+Oops: test and reference outputs for trace16.txt differed.
+
+Test output:
+#
+# trace16.txt - Process bg builtin command (two jobs)
+#
+tsh> ./myspin1 10 &
+[1] (7935) ./myspin1 10 &
+tsh> ./mytstpp
+tsh> jobs
+[1] (7935) Running    ./myspin1 10 &
+[2] (7937) Stopped    ./mytstpp
+tsh> bg %2
+[2] (7937) ./mytstpp
+tsh> jobs
+[1] (7935) Running    ./myspin1 10 &
+[2] (7937) Running    ./mytstpp
+
+Reference output:
+#
+# trace16.txt - Process bg builtin command (two jobs)
+#
+tsh> ./myspin1 10 &
+[1] (7947) ./myspin1 10 &
+tsh> ./mytstpp
+Job [2] (7949) stopped by signal 20
+tsh> jobs
+[1] (7947) Running    ./myspin1 10 &
+[2] (7949) Stopped    ./mytstpp
+tsh> bg %2
+[2] (7949) ./mytstpp
+tsh> jobs
+[1] (7947) Running    ./myspin1 10 &
+[2] (7949) Running    ./mytstpp
+
+Output of 'diff test reference':
+5c5
+< [1] (7935) ./myspin1 10 &
+---
+> [1] (7947) ./myspin1 10 &
+6a7
+> Job [2] (7949) stopped by signal 20
+8,9c9,10
+< [1] (7935) Running    ./myspin1 10 &
+< [2] (7937) Stopped    ./mytstpp
+---
+> [1] (7947) Running    ./myspin1 10 &
+> [2] (7949) Stopped    ./mytstpp
+11c12
+< [2] (7937) ./mytstpp
+---
+> [2] (7949) ./mytstpp
+13,14c14,15
+< [1] (7935) Running    ./myspin1 10 &
+< [2] (7937) Running    ./mytstpp
+---
+> [1] (7947) Running    ./myspin1 10 &
+> [2] (7949) Running    ./mytstpp
+
+Running trace17.txt...
+Oops: test and reference outputs for trace17.txt differed.
+
+Test output:
+#
+# trace17.txt - Process fg builtin command (one job)
+#
+tsh> ./mytstps
+tsh> jobs
+[1] (7969) Stopped    ./mytstps
+tsh> fg %1
+
+Reference output:
+#
+# trace17.txt - Process fg builtin command (one job)
+#
+tsh> ./mytstps
+Job [1] (7978) stopped by signal 20
+tsh> jobs
+[1] (7978) Stopped    ./mytstps
+tsh> fg %1
+
+Output of 'diff test reference':
+4a5
+> Job [1] (7978) stopped by signal 20
+6c7
+< [1] (7969) Stopped    ./mytstps
+---
+> [1] (7978) Stopped    ./mytstps
+
+Running trace18.txt...
+Oops: test and reference outputs for trace18.txt differed.
+
+Test output:
+#
+# trace18.txt - Process fg builtin command (two jobs)
+#
+tsh> ./myspin1 10 &
+[1] (7997) ./myspin1 10 &
+tsh> ./mytstps
+tsh> jobs
+[1] (7997) Running    ./myspin1 10 &
+[2] (7999) Stopped    ./mytstps
+tsh> fg %2
+
+Reference output:
+#
+# trace18.txt - Process fg builtin command (two jobs)
+#
+tsh> ./myspin1 10 &
+[1] (8008) ./myspin1 10 &
+tsh> ./mytstps
+Job [2] (8010) stopped by signal 20
+tsh> jobs
+[1] (8008) Running    ./myspin1 10 &
+[2] (8010) Stopped    ./mytstps
+tsh> fg %2
+
+Output of 'diff test reference':
+5c5
+< [1] (7997) ./myspin1 10 &
+---
+> [1] (8008) ./myspin1 10 &
+6a7
+> Job [2] (8010) stopped by signal 20
+8,9c9,10
+< [1] (7997) Running    ./myspin1 10 &
+< [2] (7999) Stopped    ./mytstps
+---
+> [1] (8008) Running    ./myspin1 10 &
+> [2] (8010) Stopped    ./mytstps
+
+Running trace19.txt...
+Running trace20.txt...
+Oops: test and reference outputs for trace20.txt differed.
+
+Test output:
+#
+# trace20.txt - Forward SIGTSTP to every process in foreground process group
+#
+tsh> ./mysplit 10
+tsh> /bin/sh -c '/bin/ps ha | /bin/fgrep -v grep | /bin/fgrep mysplit | /usr/bin/expand | /usr/bin/colrm 1 15 | /usr/bin/colrm 2 11'
+T ./mysplit 10
+T ./mysplit 10
+
+Reference output:
+#
+# trace20.txt - Forward SIGTSTP to every process in foreground process group
+#
+tsh> ./mysplit 10
+Job [1] (8079) stopped by signal 20
+tsh> /bin/sh -c '/bin/ps ha | /bin/fgrep -v grep | /bin/fgrep mysplit | /usr/bin/expand | /usr/bin/colrm 1 15 | /usr/bin/colrm 2 11'
+T ./mysplit 10
+T ./mysplit 10
+
+Output of 'diff test reference':
+4a5
+> Job [1] (8079) stopped by signal 20
+
+Running trace21.txt...
+Oops: test and reference outputs for trace21.txt differed.
+
+Test output:
+#
+# trace21.txt - Restart every stopped process in process group
+#
+tsh> ./mysplitp
+tsh> /bin/sh -c '/bin/ps ha | /bin/fgrep -v grep | /bin/fgrep mysplitp | /usr/bin/expand | /usr/bin/colrm 1 15 | /usr/bin/colrm 2 11'
+T ./mysplitp
+T ./mysplitp
+tsh> fg %1
+tsh> /bin/sh -c '/bin/ps ha | /bin/fgrep -v grep | /bin/fgrep mysplitp'
+ 8105 pts/2    T      0:00 ./mysplitp
+ 8106 pts/2    T      0:00 ./mysplitp
+
+Reference output:
+#
+# trace21.txt - Restart every stopped process in process group
+#
+tsh> ./mysplitp
+Job [1] (8127) stopped by signal 20
+tsh> /bin/sh -c '/bin/ps ha | /bin/fgrep -v grep | /bin/fgrep mysplitp | /usr/bin/expand | /usr/bin/colrm 1 15 | /usr/bin/colrm 2 11'
+T ./mysplitp
+T ./mysplitp
+tsh> fg %1
+tsh> /bin/sh -c '/bin/ps ha | /bin/fgrep -v grep | /bin/fgrep mysplitp'
+
+Output of 'diff test reference':
+4a5
+> Job [1] (8127) stopped by signal 20
+10,11d10
+<  8105 pts/2    T      0:00 ./mysplitp
+<  8106 pts/2    T      0:00 ./mysplitp
+
+Running trace22.txt...
+Oops: test and reference outputs for trace22.txt differed.
+
+Test output:
+#
+# trace22.txt - I/O redirection (input)
+#
+tsh> ./mycat < mycat.c
+input file error!: Bad address
+
+Reference output:
+#
+# trace22.txt - I/O redirection (input)
+#
+tsh> ./mycat < mycat.c
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    char c;
+    while ((c = getchar()) != EOF) {
+	putchar(c);
+    }
+    exit(0);
+}
+
+Output of 'diff test reference':
+5c5,14
+< input file error!: Bad address
+---
+> #include <stdio.h>
+> #include <stdlib.h>
+> 
+> int main() {
+>     char c;
+>     while ((c = getchar()) != EOF) {
+> 	putchar(c);
+>     }
+>     exit(0);
+> }
+
+Running trace23.txt...
+Running trace24.txt...
+
+Score: 60/100
+bash-4.1$ exit
+exit
+
+Script done on Sun 06 Jul 2014 11:17:35 AM EDT

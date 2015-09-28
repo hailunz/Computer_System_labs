@@ -1,0 +1,2833 @@
+Script started on Sun 20 Jul 2014 02:08:09 AM EDT
+[?1034hbash-4.1$ exit./mdriver.fast[K[K[K[Kdebug -c /traces/alaska.rep
+Measuring performance with a cycle counter.
+Processor clock rate ~= 2261.0 MHz
+list0x800000048heap list0x800000050
+extend heap
+add free0x800000058 256
+add free list3 0x80000000c
+malloc size16
+Heap (0x800000050):
+0x800000058: header: [256:f] footer: [256:f]
+0x800000154: EOL
+heap end 0x800000157
+freelist [0] 0x800000000:->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->end.
+freelist [3] 0x80000000c:->list:0x800000058->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size24
+delete0x800000058
+add free0x800000070 232
+add free list2 0x800000008
+malloc size1234
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [232:f] footer: [232:f]
+0x800000154: EOL
+heap end 0x800000157
+freelist [0] 0x800000000:->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x800000070->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size1248
+extend heap
+delete0x800000070
+add free0x800000070 1480
+add free list5 0x800000014
+delete0x800000070
+add free0x800000550 232
+add free list2 0x800000008
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [232:f] footer: [232:f]
+0x800000634: EOL
+heap end 0x800000637
+freelist [0] 0x800000000:->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x800000550->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+malloc size1234
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [232:f] footer: [232:f]
+0x800000634: EOL
+heap end 0x800000637
+freelist [0] 0x800000000:->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x800000550->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size1248
+extend heap
+delete0x800000550
+add free0x800000550 1480
+add free list5 0x800000014
+delete0x800000550
+add free0x800000a30 232
+add free list2 0x800000008
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [232:f] footer: [232:f]
+0x800000b14: EOL
+heap end 0x800000b17
+freelist [0] 0x800000000:->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x800000a30->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+malloc size1234
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [232:f] footer: [232:f]
+0x800000b14: EOL
+heap end 0x800000b17
+freelist [0] 0x800000000:->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x800000a30->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size1248
+extend heap
+delete0x800000a30
+add free0x800000a30 1480
+add free list5 0x800000014
+delete0x800000a30
+add free0x800000f10 232
+add free list2 0x800000008
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [232:f] footer: [232:f]
+0x800000ff4: EOL
+heap end 0x800000ff7
+freelist [0] 0x800000000:->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x800000f10->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+malloc size1234
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [232:f] footer: [232:f]
+0x800000ff4: EOL
+heap end 0x800000ff7
+freelist [0] 0x800000000:->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x800000f10->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size1248
+extend heap
+delete0x800000f10
+add free0x800000f10 1480
+add free list5 0x800000014
+delete0x800000f10
+add free0x8000013f0 232
+add free list2 0x800000008
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [232:f] footer: [232:f]
+0x8000014d4: EOL
+heap end 0x8000014d7
+freelist [0] 0x800000000:->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x8000013f0->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+malloc size1234
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [232:f] footer: [232:f]
+0x8000014d4: EOL
+heap end 0x8000014d7
+freelist [0] 0x800000000:->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x8000013f0->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size1248
+extend heap
+delete0x8000013f0
+add free0x8000013f0 1480
+add free list5 0x800000014
+delete0x8000013f0
+add free0x8000018d0 232
+add free list2 0x800000008
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [232:f] footer: [232:f]
+0x8000019b4: EOL
+heap end 0x8000019b7
+freelist [0] 0x800000000:->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x8000018d0->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+malloc size1234
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [232:f] footer: [232:f]
+0x8000019b4: EOL
+heap end 0x8000019b7
+freelist [0] 0x800000000:->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x8000018d0->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size1248
+extend heap
+delete0x8000018d0
+add free0x8000018d0 1480
+add free list5 0x800000014
+delete0x8000018d0
+add free0x800001db0 232
+add free list2 0x800000008
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [232:f] footer: [232:f]
+0x800001e94: EOL
+heap end 0x800001e97
+freelist [0] 0x800000000:->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x800001db0->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+malloc size1234
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [232:f] footer: [232:f]
+0x800001e94: EOL
+heap end 0x800001e97
+freelist [0] 0x800000000:->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x800001db0->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size1248
+extend heap
+delete0x800001db0
+add free0x800001db0 1480
+add free list5 0x800000014
+delete0x800001db0
+add free0x800002290 232
+add free list2 0x800000008
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [232:f] footer: [232:f]
+0x800002374: EOL
+heap end 0x800002377
+freelist [0] 0x800000000:->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x800002290->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+malloc size1234
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [232:f] footer: [232:f]
+0x800002374: EOL
+heap end 0x800002377
+freelist [0] 0x800000000:->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x800002290->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size1248
+extend heap
+delete0x800002290
+add free0x800002290 1480
+add free list5 0x800000014
+delete0x800002290
+add free0x800002770 232
+add free list2 0x800000008
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [232:f] footer: [232:f]
+0x800002854: EOL
+heap end 0x800002857
+freelist [0] 0x800000000:->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x800002770->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+add free0x800000058 24
+add free list0 0x800000000
+malloc size1234
+Heap (0x800000050):
+0x800000058: header: [24:f] footer: [24:f]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [232:f] footer: [232:f]
+0x800002854: EOL
+heap end 0x800002857
+freelist [0] 0x800000000:->list:0x800000058->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x800002770->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size1248
+extend heap
+delete0x800002770
+add free0x800002770 1480
+add free list5 0x800000014
+delete0x800002770
+add free0x800002c50 232
+add free list2 0x800000008
+Heap (0x800000050):
+0x800000058: header: [24:f] footer: [24:f]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [232:f] footer: [232:f]
+0x800002d34: EOL
+heap end 0x800002d37
+freelist [0] 0x800000000:->list:0x800000058->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x800002c50->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+malloc size1234
+Heap (0x800000050):
+0x800000058: header: [24:f] footer: [24:f]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [232:f] footer: [232:f]
+0x800002d34: EOL
+heap end 0x800002d37
+freelist [0] 0x800000000:->list:0x800000058->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x800002c50->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size1248
+extend heap
+delete0x800002c50
+add free0x800002c50 1480
+add free list5 0x800000014
+delete0x800002c50
+add free0x800003130 232
+add free list2 0x800000008
+Heap (0x800000050):
+0x800000058: header: [24:f] footer: [24:f]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [232:f] footer: [232:f]
+0x800003214: EOL
+heap end 0x800003217
+freelist [0] 0x800000000:->list:0x800000058->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x800003130->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+malloc size1234
+Heap (0x800000050):
+0x800000058: header: [24:f] footer: [24:f]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [232:f] footer: [232:f]
+0x800003214: EOL
+heap end 0x800003217
+freelist [0] 0x800000000:->list:0x800000058->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x800003130->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size1248
+extend heap
+delete0x800003130
+add free0x800003130 1480
+add free list5 0x800000014
+delete0x800003130
+add free0x800003610 232
+add free list2 0x800000008
+Heap (0x800000050):
+0x800000058: header: [24:f] footer: [24:f]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [232:f] footer: [232:f]
+0x8000036f4: EOL
+heap end 0x8000036f7
+freelist [0] 0x800000000:->list:0x800000058->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x800003610->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+malloc size1234
+Heap (0x800000050):
+0x800000058: header: [24:f] footer: [24:f]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [232:f] footer: [232:f]
+0x8000036f4: EOL
+heap end 0x8000036f7
+freelist [0] 0x800000000:->list:0x800000058->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x800003610->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size1248
+extend heap
+delete0x800003610
+add free0x800003610 1480
+add free list5 0x800000014
+delete0x800003610
+add free0x800003af0 232
+add free list2 0x800000008
+Heap (0x800000050):
+0x800000058: header: [24:f] footer: [24:f]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [232:f] footer: [232:f]
+0x800003bd4: EOL
+heap end 0x800003bd7
+freelist [0] 0x800000000:->list:0x800000058->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x800003af0->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+malloc size600
+Heap (0x800000050):
+0x800000058: header: [24:f] footer: [24:f]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [232:f] footer: [232:f]
+0x800003bd4: EOL
+heap end 0x800003bd7
+freelist [0] 0x800000000:->list:0x800000058->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x800003af0->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size608
+extend heap
+delete0x800003af0
+add free0x800003af0 840
+add free list4 0x800000010
+delete0x800003af0
+add free0x800003d50 232
+add free list2 0x800000008
+Heap (0x800000050):
+0x800000058: header: [24:f] footer: [24:f]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [232:f] footer: [232:f]
+0x800003e34: EOL
+heap end 0x800003e37
+freelist [0] 0x800000000:->list:0x800000058->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x800003d50->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+malloc size600
+Heap (0x800000050):
+0x800000058: header: [24:f] footer: [24:f]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [232:f] footer: [232:f]
+0x800003e34: EOL
+heap end 0x800003e37
+freelist [0] 0x800000000:->list:0x800000058->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x800003d50->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size608
+extend heap
+delete0x800003d50
+add free0x800003d50 840
+add free list4 0x800000010
+delete0x800003d50
+add free0x800003fb0 232
+add free list2 0x800000008
+Heap (0x800000050):
+0x800000058: header: [24:f] footer: [24:f]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:a] footer: [608:a]
+0x800003fb0: header: [232:f] footer: [232:f]
+0x800004094: EOL
+heap end 0x800004097
+freelist [0] 0x800000000:->list:0x800000058->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x800003fb0->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+malloc size600
+Heap (0x800000050):
+0x800000058: header: [24:f] footer: [24:f]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:a] footer: [608:a]
+0x800003fb0: header: [232:f] footer: [232:f]
+0x800004094: EOL
+heap end 0x800004097
+freelist [0] 0x800000000:->list:0x800000058->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x800003fb0->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size608
+extend heap
+delete0x800003fb0
+add free0x800003fb0 840
+add free list4 0x800000010
+delete0x800003fb0
+add free0x800004210 232
+add free list2 0x800000008
+Heap (0x800000050):
+0x800000058: header: [24:f] footer: [24:f]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:a] footer: [608:a]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [232:f] footer: [232:f]
+0x8000042f4: EOL
+heap end 0x8000042f7
+freelist [0] 0x800000000:->list:0x800000058->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x800004210->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+malloc size600
+Heap (0x800000050):
+0x800000058: header: [24:f] footer: [24:f]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:a] footer: [608:a]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [232:f] footer: [232:f]
+0x8000042f4: EOL
+heap end 0x8000042f7
+freelist [0] 0x800000000:->list:0x800000058->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x800004210->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size608
+extend heap
+delete0x800004210
+add free0x800004210 840
+add free list4 0x800000010
+delete0x800004210
+add free0x800004470 232
+add free list2 0x800000008
+Heap (0x800000050):
+0x800000058: header: [24:f] footer: [24:f]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:a] footer: [608:a]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [608:a] footer: [608:a]
+0x800004470: header: [232:f] footer: [232:f]
+0x800004554: EOL
+heap end 0x800004557
+freelist [0] 0x800000000:->list:0x800000058->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x800004470->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+malloc size16
+Heap (0x800000050):
+0x800000058: header: [24:f] footer: [24:f]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:a] footer: [608:a]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [608:a] footer: [608:a]
+0x800004470: header: [232:f] footer: [232:f]
+0x800004554: EOL
+heap end 0x800004557
+freelist [0] 0x800000000:->list:0x800000058->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x800004470->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size24
+delete0x800000058
+malloc size16
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:a] footer: [608:a]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [608:a] footer: [608:a]
+0x800004470: header: [232:f] footer: [232:f]
+0x800004554: EOL
+heap end 0x800004557
+freelist [0] 0x800000000:->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x800004470->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size24
+delete0x800004470
+add free0x800004488 208
+add free list2 0x800000008
+malloc size16
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:a] footer: [608:a]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [608:a] footer: [608:a]
+0x800004470: header: [24:a] footer: [24:a]
+0x800004488: header: [208:f] footer: [208:f]
+0x800004554: EOL
+heap end 0x800004557
+freelist [0] 0x800000000:->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x800004488->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size24
+delete0x800004488
+add free0x8000044a0 184
+add free list2 0x800000008
+add free0x800002290 1248
+add free list5 0x800000014
+malloc size1234
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:f] footer: [1248:f]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:a] footer: [608:a]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [608:a] footer: [608:a]
+0x800004470: header: [24:a] footer: [24:a]
+0x800004488: header: [24:a] footer: [24:a]
+0x8000044a0: header: [184:f] footer: [184:f]
+0x800004554: EOL
+heap end 0x800004557
+freelist [0] 0x800000000:->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x8000044a0->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->list:0x800002290->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size1248
+delete0x800002290
+malloc size16
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:a] footer: [608:a]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [608:a] footer: [608:a]
+0x800004470: header: [24:a] footer: [24:a]
+0x800004488: header: [24:a] footer: [24:a]
+0x8000044a0: header: [184:f] footer: [184:f]
+0x800004554: EOL
+heap end 0x800004557
+freelist [0] 0x800000000:->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x8000044a0->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size24
+delete0x8000044a0
+add free0x8000044b8 160
+add free list2 0x800000008
+malloc size16
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:a] footer: [608:a]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [608:a] footer: [608:a]
+0x800004470: header: [24:a] footer: [24:a]
+0x800004488: header: [24:a] footer: [24:a]
+0x8000044a0: header: [24:a] footer: [24:a]
+0x8000044b8: header: [160:f] footer: [160:f]
+0x800004554: EOL
+heap end 0x800004557
+freelist [0] 0x800000000:->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x8000044b8->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size24
+delete0x8000044b8
+add free0x8000044d0 136
+add free list2 0x800000008
+malloc size16
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:a] footer: [608:a]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [608:a] footer: [608:a]
+0x800004470: header: [24:a] footer: [24:a]
+0x800004488: header: [24:a] footer: [24:a]
+0x8000044a0: header: [24:a] footer: [24:a]
+0x8000044b8: header: [24:a] footer: [24:a]
+0x8000044d0: header: [136:f] footer: [136:f]
+0x800004554: EOL
+heap end 0x800004557
+freelist [0] 0x800000000:->end.
+freelist [1] 0x800000004:->end.
+freelist [2] 0x800000008:->list:0x8000044d0->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size24
+delete0x8000044d0
+add free0x8000044e8 112
+add free list1 0x800000004
+malloc size1234
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:a] footer: [608:a]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [608:a] footer: [608:a]
+0x800004470: header: [24:a] footer: [24:a]
+0x800004488: header: [24:a] footer: [24:a]
+0x8000044a0: header: [24:a] footer: [24:a]
+0x8000044b8: header: [24:a] footer: [24:a]
+0x8000044d0: header: [24:a] footer: [24:a]
+0x8000044e8: header: [112:f] footer: [112:f]
+0x800004554: EOL
+heap end 0x800004557
+freelist [0] 0x800000000:->end.
+freelist [1] 0x800000004:->list:0x8000044e8->end.
+freelist [2] 0x800000008:->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size1248
+extend heap
+delete0x8000044e8
+add free0x8000044e8 1360
+add free list5 0x800000014
+delete0x8000044e8
+add free0x8000049c8 112
+add free list1 0x800000004
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:a] footer: [608:a]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [608:a] footer: [608:a]
+0x800004470: header: [24:a] footer: [24:a]
+0x800004488: header: [24:a] footer: [24:a]
+0x8000044a0: header: [24:a] footer: [24:a]
+0x8000044b8: header: [24:a] footer: [24:a]
+0x8000044d0: header: [24:a] footer: [24:a]
+0x8000044e8: header: [1248:a] footer: [1248:a]
+0x8000049c8: header: [112:f] footer: [112:f]
+0x800004a34: EOL
+heap end 0x800004a37
+freelist [0] 0x800000000:->end.
+freelist [1] 0x800000004:->list:0x8000049c8->end.
+freelist [2] 0x800000008:->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+add free0x8000044a0 24
+add free list0 0x800000000
+malloc size600
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:a] footer: [608:a]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [608:a] footer: [608:a]
+0x800004470: header: [24:a] footer: [24:a]
+0x800004488: header: [24:a] footer: [24:a]
+0x8000044a0: header: [24:f] footer: [24:f]
+0x8000044b8: header: [24:a] footer: [24:a]
+0x8000044d0: header: [24:a] footer: [24:a]
+0x8000044e8: header: [1248:a] footer: [1248:a]
+0x8000049c8: header: [112:f] footer: [112:f]
+0x800004a34: EOL
+heap end 0x800004a37
+freelist [0] 0x800000000:->list:0x8000044a0->end.
+freelist [1] 0x800000004:->list:0x8000049c8->end.
+freelist [2] 0x800000008:->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size608
+extend heap
+delete0x8000049c8
+add free0x8000049c8 720
+add free list4 0x800000010
+delete0x8000049c8
+add free0x800004c28 112
+add free list1 0x800000004
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:a] footer: [608:a]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [608:a] footer: [608:a]
+0x800004470: header: [24:a] footer: [24:a]
+0x800004488: header: [24:a] footer: [24:a]
+0x8000044a0: header: [24:f] footer: [24:f]
+0x8000044b8: header: [24:a] footer: [24:a]
+0x8000044d0: header: [24:a] footer: [24:a]
+0x8000044e8: header: [1248:a] footer: [1248:a]
+0x8000049c8: header: [608:a] footer: [608:a]
+0x800004c28: header: [112:f] footer: [112:f]
+0x800004c94: EOL
+heap end 0x800004c97
+freelist [0] 0x800000000:->list:0x8000044a0->end.
+freelist [1] 0x800000004:->list:0x800004c28->end.
+freelist [2] 0x800000008:->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+add free0x8000013f0 1248
+add free list5 0x800000014
+add free0x800003d50 608
+add free list4 0x800000010
+add free0x800001db0 1248
+add free list5 0x800000014
+malloc size1234
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:f] footer: [1248:f]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:f] footer: [1248:f]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:f] footer: [608:f]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [608:a] footer: [608:a]
+0x800004470: header: [24:a] footer: [24:a]
+0x800004488: header: [24:a] footer: [24:a]
+0x8000044a0: header: [24:f] footer: [24:f]
+0x8000044b8: header: [24:a] footer: [24:a]
+0x8000044d0: header: [24:a] footer: [24:a]
+0x8000044e8: header: [1248:a] footer: [1248:a]
+0x8000049c8: header: [608:a] footer: [608:a]
+0x800004c28: header: [112:f] footer: [112:f]
+0x800004c94: EOL
+heap end 0x800004c97
+freelist [0] 0x800000000:->list:0x8000044a0->end.
+freelist [1] 0x800000004:->list:0x800004c28->end.
+freelist [2] 0x800000008:->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->list:0x800003d50->end.
+freelist [5] 0x800000014:->list:0x8000013f0->list:0x800001db0->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size1248
+delete0x8000013f0
+malloc size1234
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:f] footer: [1248:f]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:f] footer: [608:f]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [608:a] footer: [608:a]
+0x800004470: header: [24:a] footer: [24:a]
+0x800004488: header: [24:a] footer: [24:a]
+0x8000044a0: header: [24:f] footer: [24:f]
+0x8000044b8: header: [24:a] footer: [24:a]
+0x8000044d0: header: [24:a] footer: [24:a]
+0x8000044e8: header: [1248:a] footer: [1248:a]
+0x8000049c8: header: [608:a] footer: [608:a]
+0x800004c28: header: [112:f] footer: [112:f]
+0x800004c94: EOL
+heap end 0x800004c97
+freelist [0] 0x800000000:->list:0x8000044a0->end.
+freelist [1] 0x800000004:->list:0x800004c28->end.
+freelist [2] 0x800000008:->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->list:0x800003d50->end.
+freelist [5] 0x800000014:->list:0x800001db0->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size1248
+delete0x800001db0
+malloc size1234
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:f] footer: [608:f]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [608:a] footer: [608:a]
+0x800004470: header: [24:a] footer: [24:a]
+0x800004488: header: [24:a] footer: [24:a]
+0x8000044a0: header: [24:f] footer: [24:f]
+0x8000044b8: header: [24:a] footer: [24:a]
+0x8000044d0: header: [24:a] footer: [24:a]
+0x8000044e8: header: [1248:a] footer: [1248:a]
+0x8000049c8: header: [608:a] footer: [608:a]
+0x800004c28: header: [112:f] footer: [112:f]
+0x800004c94: EOL
+heap end 0x800004c97
+freelist [0] 0x800000000:->list:0x8000044a0->end.
+freelist [1] 0x800000004:->list:0x800004c28->end.
+freelist [2] 0x800000008:->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->list:0x800003d50->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size1248
+extend heap
+delete0x800004c28
+add free0x800004c28 1360
+add free list5 0x800000014
+delete0x800004c28
+add free0x800005108 112
+add free list1 0x800000004
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:f] footer: [608:f]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [608:a] footer: [608:a]
+0x800004470: header: [24:a] footer: [24:a]
+0x800004488: header: [24:a] footer: [24:a]
+0x8000044a0: header: [24:f] footer: [24:f]
+0x8000044b8: header: [24:a] footer: [24:a]
+0x8000044d0: header: [24:a] footer: [24:a]
+0x8000044e8: header: [1248:a] footer: [1248:a]
+0x8000049c8: header: [608:a] footer: [608:a]
+0x800004c28: header: [1248:a] footer: [1248:a]
+0x800005108: header: [112:f] footer: [112:f]
+0x800005174: EOL
+heap end 0x800005177
+freelist [0] 0x800000000:->list:0x8000044a0->end.
+freelist [1] 0x800000004:->list:0x800005108->end.
+freelist [2] 0x800000008:->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->list:0x800003d50->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+malloc size1234
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:f] footer: [608:f]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [608:a] footer: [608:a]
+0x800004470: header: [24:a] footer: [24:a]
+0x800004488: header: [24:a] footer: [24:a]
+0x8000044a0: header: [24:f] footer: [24:f]
+0x8000044b8: header: [24:a] footer: [24:a]
+0x8000044d0: header: [24:a] footer: [24:a]
+0x8000044e8: header: [1248:a] footer: [1248:a]
+0x8000049c8: header: [608:a] footer: [608:a]
+0x800004c28: header: [1248:a] footer: [1248:a]
+0x800005108: header: [112:f] footer: [112:f]
+0x800005174: EOL
+heap end 0x800005177
+freelist [0] 0x800000000:->list:0x8000044a0->end.
+freelist [1] 0x800000004:->list:0x800005108->end.
+freelist [2] 0x800000008:->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->list:0x800003d50->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size1248
+extend heap
+delete0x800005108
+add free0x800005108 1360
+add free list5 0x800000014
+delete0x800005108
+add free0x8000055e8 112
+add free list1 0x800000004
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:f] footer: [608:f]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [608:a] footer: [608:a]
+0x800004470: header: [24:a] footer: [24:a]
+0x800004488: header: [24:a] footer: [24:a]
+0x8000044a0: header: [24:f] footer: [24:f]
+0x8000044b8: header: [24:a] footer: [24:a]
+0x8000044d0: header: [24:a] footer: [24:a]
+0x8000044e8: header: [1248:a] footer: [1248:a]
+0x8000049c8: header: [608:a] footer: [608:a]
+0x800004c28: header: [1248:a] footer: [1248:a]
+0x800005108: header: [1248:a] footer: [1248:a]
+0x8000055e8: header: [112:f] footer: [112:f]
+0x800005654: EOL
+heap end 0x800005657
+freelist [0] 0x800000000:->list:0x8000044a0->end.
+freelist [1] 0x800000004:->list:0x8000055e8->end.
+freelist [2] 0x800000008:->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->list:0x800003d50->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+malloc size1234
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:f] footer: [608:f]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [608:a] footer: [608:a]
+0x800004470: header: [24:a] footer: [24:a]
+0x800004488: header: [24:a] footer: [24:a]
+0x8000044a0: header: [24:f] footer: [24:f]
+0x8000044b8: header: [24:a] footer: [24:a]
+0x8000044d0: header: [24:a] footer: [24:a]
+0x8000044e8: header: [1248:a] footer: [1248:a]
+0x8000049c8: header: [608:a] footer: [608:a]
+0x800004c28: header: [1248:a] footer: [1248:a]
+0x800005108: header: [1248:a] footer: [1248:a]
+0x8000055e8: header: [112:f] footer: [112:f]
+0x800005654: EOL
+heap end 0x800005657
+freelist [0] 0x800000000:->list:0x8000044a0->end.
+freelist [1] 0x800000004:->list:0x8000055e8->end.
+freelist [2] 0x800000008:->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->list:0x800003d50->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size1248
+extend heap
+delete0x8000055e8
+add free0x8000055e8 1360
+add free list5 0x800000014
+delete0x8000055e8
+add free0x800005ac8 112
+add free list1 0x800000004
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:f] footer: [608:f]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [608:a] footer: [608:a]
+0x800004470: header: [24:a] footer: [24:a]
+0x800004488: header: [24:a] footer: [24:a]
+0x8000044a0: header: [24:f] footer: [24:f]
+0x8000044b8: header: [24:a] footer: [24:a]
+0x8000044d0: header: [24:a] footer: [24:a]
+0x8000044e8: header: [1248:a] footer: [1248:a]
+0x8000049c8: header: [608:a] footer: [608:a]
+0x800004c28: header: [1248:a] footer: [1248:a]
+0x800005108: header: [1248:a] footer: [1248:a]
+0x8000055e8: header: [1248:a] footer: [1248:a]
+0x800005ac8: header: [112:f] footer: [112:f]
+0x800005b34: EOL
+heap end 0x800005b37
+freelist [0] 0x800000000:->list:0x8000044a0->end.
+freelist [1] 0x800000004:->list:0x800005ac8->end.
+freelist [2] 0x800000008:->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->list:0x800003d50->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+malloc size1234
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:f] footer: [608:f]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [608:a] footer: [608:a]
+0x800004470: header: [24:a] footer: [24:a]
+0x800004488: header: [24:a] footer: [24:a]
+0x8000044a0: header: [24:f] footer: [24:f]
+0x8000044b8: header: [24:a] footer: [24:a]
+0x8000044d0: header: [24:a] footer: [24:a]
+0x8000044e8: header: [1248:a] footer: [1248:a]
+0x8000049c8: header: [608:a] footer: [608:a]
+0x800004c28: header: [1248:a] footer: [1248:a]
+0x800005108: header: [1248:a] footer: [1248:a]
+0x8000055e8: header: [1248:a] footer: [1248:a]
+0x800005ac8: header: [112:f] footer: [112:f]
+0x800005b34: EOL
+heap end 0x800005b37
+freelist [0] 0x800000000:->list:0x8000044a0->end.
+freelist [1] 0x800000004:->list:0x800005ac8->end.
+freelist [2] 0x800000008:->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->list:0x800003d50->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size1248
+extend heap
+delete0x800005ac8
+add free0x800005ac8 1360
+add free list5 0x800000014
+delete0x800005ac8
+add free0x800005fa8 112
+add free list1 0x800000004
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:f] footer: [608:f]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [608:a] footer: [608:a]
+0x800004470: header: [24:a] footer: [24:a]
+0x800004488: header: [24:a] footer: [24:a]
+0x8000044a0: header: [24:f] footer: [24:f]
+0x8000044b8: header: [24:a] footer: [24:a]
+0x8000044d0: header: [24:a] footer: [24:a]
+0x8000044e8: header: [1248:a] footer: [1248:a]
+0x8000049c8: header: [608:a] footer: [608:a]
+0x800004c28: header: [1248:a] footer: [1248:a]
+0x800005108: header: [1248:a] footer: [1248:a]
+0x8000055e8: header: [1248:a] footer: [1248:a]
+0x800005ac8: header: [1248:a] footer: [1248:a]
+0x800005fa8: header: [112:f] footer: [112:f]
+0x800006014: EOL
+heap end 0x800006017
+freelist [0] 0x800000000:->list:0x8000044a0->end.
+freelist [1] 0x800000004:->list:0x800005fa8->end.
+freelist [2] 0x800000008:->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->list:0x800003d50->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+malloc size1234
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:f] footer: [608:f]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [608:a] footer: [608:a]
+0x800004470: header: [24:a] footer: [24:a]
+0x800004488: header: [24:a] footer: [24:a]
+0x8000044a0: header: [24:f] footer: [24:f]
+0x8000044b8: header: [24:a] footer: [24:a]
+0x8000044d0: header: [24:a] footer: [24:a]
+0x8000044e8: header: [1248:a] footer: [1248:a]
+0x8000049c8: header: [608:a] footer: [608:a]
+0x800004c28: header: [1248:a] footer: [1248:a]
+0x800005108: header: [1248:a] footer: [1248:a]
+0x8000055e8: header: [1248:a] footer: [1248:a]
+0x800005ac8: header: [1248:a] footer: [1248:a]
+0x800005fa8: header: [112:f] footer: [112:f]
+0x800006014: EOL
+heap end 0x800006017
+freelist [0] 0x800000000:->list:0x8000044a0->end.
+freelist [1] 0x800000004:->list:0x800005fa8->end.
+freelist [2] 0x800000008:->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->list:0x800003d50->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size1248
+extend heap
+delete0x800005fa8
+add free0x800005fa8 1360
+add free list5 0x800000014
+delete0x800005fa8
+add free0x800006488 112
+add free list1 0x800000004
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:a] footer: [1248:a]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:f] footer: [608:f]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [608:a] footer: [608:a]
+0x800004470: header: [24:a] footer: [24:a]
+0x800004488: header: [24:a] footer: [24:a]
+0x8000044a0: header: [24:f] footer: [24:f]
+0x8000044b8: header: [24:a] footer: [24:a]
+0x8000044d0: header: [24:a] footer: [24:a]
+0x8000044e8: header: [1248:a] footer: [1248:a]
+0x8000049c8: header: [608:a] footer: [608:a]
+0x800004c28: header: [1248:a] footer: [1248:a]
+0x800005108: header: [1248:a] footer: [1248:a]
+0x8000055e8: header: [1248:a] footer: [1248:a]
+0x800005ac8: header: [1248:a] footer: [1248:a]
+0x800005fa8: header: [1248:a] footer: [1248:a]
+0x800006488: header: [112:f] footer: [112:f]
+0x8000064f4: EOL
+heap end 0x8000064f7
+freelist [0] 0x800000000:->list:0x8000044a0->end.
+freelist [1] 0x800000004:->list:0x800006488->end.
+freelist [2] 0x800000008:->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->list:0x800003d50->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+delete0x8000044a0
+add free0x8000044a0 48
+add free list0 0x800000000
+delete0x8000044a0
+add free0x800004488 72
+add free list1 0x800000004
+add free0x800005ac8 1248
+add free list5 0x800000014
+add free0x800000550 1248
+add free list5 0x800000014
+add free0x800002770 1248
+add free list5 0x800000014
+malloc size1234
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:f] footer: [1248:f]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:f] footer: [1248:f]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:f] footer: [608:f]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [608:a] footer: [608:a]
+0x800004470: header: [24:a] footer: [24:a]
+0x800004488: header: [72:f] footer: [72:f]
+0x8000044d0: header: [24:a] footer: [24:a]
+0x8000044e8: header: [1248:a] footer: [1248:a]
+0x8000049c8: header: [608:a] footer: [608:a]
+0x800004c28: header: [1248:a] footer: [1248:a]
+0x800005108: header: [1248:a] footer: [1248:a]
+0x8000055e8: header: [1248:a] footer: [1248:a]
+0x800005ac8: header: [1248:f] footer: [1248:f]
+0x800005fa8: header: [1248:a] footer: [1248:a]
+0x800006488: header: [112:f] footer: [112:f]
+0x8000064f4: EOL
+heap end 0x8000064f7
+freelist [0] 0x800000000:->end.
+freelist [1] 0x800000004:->list:0x800004488->list:0x800006488->end.
+freelist [2] 0x800000008:->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->list:0x800003d50->end.
+freelist [5] 0x800000014:->list:0x800005ac8->list:0x800002770->list:0x800000550->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size1248
+delete0x800005ac8
+malloc size1234
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:f] footer: [1248:f]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:a] footer: [1248:a]
+0x800002770: header: [1248:f] footer: [1248:f]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:f] footer: [608:f]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [608:a] footer: [608:a]
+0x800004470: header: [24:a] footer: [24:a]
+0x800004488: header: [72:f] footer: [72:f]
+0x8000044d0: header: [24:a] footer: [24:a]
+0x8000044e8: header: [1248:a] footer: [1248:a]
+0x8000049c8: header: [608:a] footer: [608:a]
+0x800004c28: header: [1248:a] footer: [1248:a]
+0x800005108: header: [1248:a] footer: [1248:a]
+0x8000055e8: header: [1248:a] footer: [1248:a]
+0x800005ac8: header: [1248:a] footer: [1248:a]
+0x800005fa8: header: [1248:a] footer: [1248:a]
+0x800006488: header: [112:f] footer: [112:f]
+0x8000064f4: EOL
+heap end 0x8000064f7
+freelist [0] 0x800000000:->end.
+freelist [1] 0x800000004:->list:0x800004488->list:0x800006488->end.
+freelist [2] 0x800000008:->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->list:0x800003d50->end.
+freelist [5] 0x800000014:->list:0x800002770->list:0x800000550->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size1248
+delete0x800002770
+add free0x800002290 1248
+add free list5 0x800000014
+malloc size600
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:f] footer: [1248:f]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:f] footer: [1248:f]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:f] footer: [608:f]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [608:a] footer: [608:a]
+0x800004470: header: [24:a] footer: [24:a]
+0x800004488: header: [72:f] footer: [72:f]
+0x8000044d0: header: [24:a] footer: [24:a]
+0x8000044e8: header: [1248:a] footer: [1248:a]
+0x8000049c8: header: [608:a] footer: [608:a]
+0x800004c28: header: [1248:a] footer: [1248:a]
+0x800005108: header: [1248:a] footer: [1248:a]
+0x8000055e8: header: [1248:a] footer: [1248:a]
+0x800005ac8: header: [1248:a] footer: [1248:a]
+0x800005fa8: header: [1248:a] footer: [1248:a]
+0x800006488: header: [112:f] footer: [112:f]
+0x8000064f4: EOL
+heap end 0x8000064f7
+freelist [0] 0x800000000:->end.
+freelist [1] 0x800000004:->list:0x800004488->list:0x800006488->end.
+freelist [2] 0x800000008:->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->list:0x800003d50->end.
+freelist [5] 0x800000014:->list:0x800000550->list:0x800002290->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size608
+delete0x800003d50
+delete0x800004488
+add free0x800004470 96
+add free list1 0x800000004
+malloc size600
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [1248:f] footer: [1248:f]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [1248:f] footer: [1248:f]
+0x800002770: header: [1248:a] footer: [1248:a]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:a] footer: [608:a]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [608:a] footer: [608:a]
+0x800004470: header: [96:f] footer: [96:f]
+0x8000044d0: header: [24:a] footer: [24:a]
+0x8000044e8: header: [1248:a] footer: [1248:a]
+0x8000049c8: header: [608:a] footer: [608:a]
+0x800004c28: header: [1248:a] footer: [1248:a]
+0x800005108: header: [1248:a] footer: [1248:a]
+0x8000055e8: header: [1248:a] footer: [1248:a]
+0x800005ac8: header: [1248:a] footer: [1248:a]
+0x800005fa8: header: [1248:a] footer: [1248:a]
+0x800006488: header: [112:f] footer: [112:f]
+0x8000064f4: EOL
+heap end 0x8000064f7
+freelist [0] 0x800000000:->end.
+freelist [1] 0x800000004:->list:0x800004470->list:0x800006488->end.
+freelist [2] 0x800000008:->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->list:0x800000550->list:0x800002290->end.
+freelist [6] 0x800000018:->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size608
+delete0x800000550
+add free0x8000007b0 640
+add free list4 0x800000010
+delete0x800002290
+add free0x800002290 2496
+add free list6 0x800000018
+malloc size134
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [608:a] footer: [608:a]
+0x8000007b0: header: [640:f] footer: [640:f]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [2496:f] footer: [2496:f]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:a] footer: [608:a]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [608:a] footer: [608:a]
+0x800004470: header: [96:f] footer: [96:f]
+0x8000044d0: header: [24:a] footer: [24:a]
+0x8000044e8: header: [1248:a] footer: [1248:a]
+0x8000049c8: header: [608:a] footer: [608:a]
+0x800004c28: header: [1248:a] footer: [1248:a]
+0x800005108: header: [1248:a] footer: [1248:a]
+0x8000055e8: header: [1248:a] footer: [1248:a]
+0x800005ac8: header: [1248:a] footer: [1248:a]
+0x800005fa8: header: [1248:a] footer: [1248:a]
+0x800006488: header: [112:f] footer: [112:f]
+0x8000064f4: EOL
+heap end 0x8000064f7
+freelist [0] 0x800000000:->end.
+freelist [1] 0x800000004:->list:0x800004470->list:0x800006488->end.
+freelist [2] 0x800000008:->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->list:0x8000007b0->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->list:0x800002290->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size144
+delete0x8000007b0
+add free0x800000840 496
+add free list3 0x80000000c
+malloc size134
+Heap (0x800000050):
+0x800000058: header: [24:a] footer: [24:a]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [608:a] footer: [608:a]
+0x8000007b0: header: [144:a] footer: [144:a]
+0x800000840: header: [496:f] footer: [496:f]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [1248:a] footer: [1248:a]
+0x8000018d0: header: [1248:a] footer: [1248:a]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [2496:f] footer: [2496:f]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:a] footer: [608:a]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [608:a] footer: [608:a]
+0x800004470: header: [96:f] footer: [96:f]
+0x8000044d0: header: [24:a] footer: [24:a]
+0x8000044e8: header: [1248:a] footer: [1248:a]
+0x8000049c8: header: [608:a] footer: [608:a]
+0x800004c28: header: [1248:a] footer: [1248:a]
+0x800005108: header: [1248:a] footer: [1248:a]
+0x8000055e8: header: [1248:a] footer: [1248:a]
+0x800005ac8: header: [1248:a] footer: [1248:a]
+0x800005fa8: header: [1248:a] footer: [1248:a]
+0x800006488: header: [112:f] footer: [112:f]
+0x8000064f4: EOL
+heap end 0x8000064f7
+freelist [0] 0x800000000:->end.
+freelist [1] 0x800000004:->list:0x800004470->list:0x800006488->end.
+freelist [2] 0x800000008:->end.
+freelist [3] 0x80000000c:->list:0x800000840->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->list:0x800002290->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size144
+delete0x800000840
+add free0x8000008d0 352
+add free list3 0x80000000c
+add free0x8000013f0 1248
+add free list5 0x800000014
+add free0x800000058 24
+add free list0 0x800000000
+delete0x8000013f0
+add free0x8000013f0 2496
+add free list6 0x800000018
+malloc size134
+Heap (0x800000050):
+0x800000058: header: [24:f] footer: [24:f]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [608:a] footer: [608:a]
+0x8000007b0: header: [144:a] footer: [144:a]
+0x800000840: header: [144:a] footer: [144:a]
+0x8000008d0: header: [352:f] footer: [352:f]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [2496:f] footer: [2496:f]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [2496:f] footer: [2496:f]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:a] footer: [608:a]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [608:a] footer: [608:a]
+0x800004470: header: [96:f] footer: [96:f]
+0x8000044d0: header: [24:a] footer: [24:a]
+0x8000044e8: header: [1248:a] footer: [1248:a]
+0x8000049c8: header: [608:a] footer: [608:a]
+0x800004c28: header: [1248:a] footer: [1248:a]
+0x800005108: header: [1248:a] footer: [1248:a]
+0x8000055e8: header: [1248:a] footer: [1248:a]
+0x800005ac8: header: [1248:a] footer: [1248:a]
+0x800005fa8: header: [1248:a] footer: [1248:a]
+0x800006488: header: [112:f] footer: [112:f]
+0x8000064f4: EOL
+heap end 0x8000064f7
+freelist [0] 0x800000000:->list:0x800000058->end.
+freelist [1] 0x800000004:->list:0x800004470->list:0x800006488->end.
+freelist [2] 0x800000008:->end.
+freelist [3] 0x80000000c:->list:0x8000008d0->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->list:0x800002290->list:0x8000013f0->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size144
+delete0x8000008d0
+add free0x800000960 208
+add free list2 0x800000008
+malloc size134
+Heap (0x800000050):
+0x800000058: header: [24:f] footer: [24:f]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [608:a] footer: [608:a]
+0x8000007b0: header: [144:a] footer: [144:a]
+0x800000840: header: [144:a] footer: [144:a]
+0x8000008d0: header: [144:a] footer: [144:a]
+0x800000960: header: [208:f] footer: [208:f]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [1248:a] footer: [1248:a]
+0x8000013f0: header: [2496:f] footer: [2496:f]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [2496:f] footer: [2496:f]
+0x800002c50: header: [1248:a] footer: [1248:a]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [608:a] footer: [608:a]
+0x800003d50: header: [608:a] footer: [608:a]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [608:a] footer: [608:a]
+0x800004470: header: [96:f] footer: [96:f]
+0x8000044d0: header: [24:a] footer: [24:a]
+0x8000044e8: header: [1248:a] footer: [1248:a]
+0x8000049c8: header: [608:a] footer: [608:a]
+0x800004c28: header: [1248:a] footer: [1248:a]
+0x800005108: header: [1248:a] footer: [1248:a]
+0x8000055e8: header: [1248:a] footer: [1248:a]
+0x800005ac8: header: [1248:a] footer: [1248:a]
+0x800005fa8: header: [1248:a] footer: [1248:a]
+0x800006488: header: [112:f] footer: [112:f]
+0x8000064f4: EOL
+heap end 0x8000064f7
+freelist [0] 0x800000000:->list:0x800000058->end.
+freelist [1] 0x800000004:->list:0x800004470->list:0x800006488->end.
+freelist [2] 0x800000008:->list:0x800000960->end.
+freelist [3] 0x80000000c:->end.
+freelist [4] 0x800000010:->end.
+freelist [5] 0x800000014:->end.
+freelist [6] 0x800000018:->list:0x800002290->list:0x8000013f0->end.
+freelist [7] 0x80000001c:->end.
+freelist [8] 0x800000020:->end.
+freelist [9] 0x800000024:->end.
+freelist [10] 0x800000028:->end.
+freelist [11] 0x80000002c:->end.
+freelist [12] 0x800000030:->end.
+freelist [13] 0x800000034:->end.
+freelist [14] 0x800000038:->end.
+freelist [15] 0x80000003c:->end.
+freelist [16] 0x800000040:->end.
+freelist [17] 0x800000044:->end.
+find fit size144
+delete0x800000960
+add free0x8000009f0 64
+add free list1 0x800000004
+delete0x800002290
+add free0x800002290 3744
+add free list6 0x800000018
+delete0x800004470
+add free0x800004470 120
+add free list1 0x800000004
+add free0x800003af0 608
+add free list4 0x800000010
+add free0x8000055e8 1248
+add free list5 0x800000014
+delete0x800003af0
+add free0x800003af0 1216
+add free list5 0x800000014
+delete0x8000055e8
+add free0x8000055e8 2496
+add free list6 0x800000018
+add free0x8000008d0 144
+add free list2 0x800000008
+delete0x8000013f0
+add free0x800000f10 3744
+add free list6 0x800000018
+malloc size1234
+Heap (0x800000050):
+0x800000058: header: [24:f] footer: [24:f]
+0x800000070: header: [1248:a] footer: [1248:a]
+0x800000550: header: [608:a] footer: [608:a]
+0x8000007b0: header: [144:a] footer: [144:a]
+0x800000840: header: [144:a] footer: [144:a]
+0x8000008d0: header: [144:f] footer: [144:f]
+0x800000960: header: [144:a] footer: [144:a]
+0x8000009f0: header: [64:f] footer: [64:f]
+0x800000a30: header: [1248:a] footer: [1248:a]
+0x800000f10: header: [3744:f] footer: [3744:f]
+0x800001db0: header: [1248:a] footer: [1248:a]
+0x800002290: header: [3744:f] footer: [3744:f]
+0x800003130: header: [1248:a] footer: [1248:a]
+0x800003610: header: [1248:a] footer: [1248:a]
+0x800003af0: header: [1216:f] footer: [1216:f]
+0x800003fb0: header: [608:a] footer: [608:a]
+0x800004210: header: [608:a] footer: [608:a]
+0x800004470: header: [120:f] footer: [120:f]
+0x8000044e8: header: [1248:a] footer: [1248:a]
+0x8000049c8: header: [608:a] footer: [608:a]
+0x800004c28: header: [1248:a] footer: [1248:a]
+0x800005108: header: [1248:a] footer: [1248:a]
+0x8000055e8: header: [2496:f] footer: [2496:f]
+0x800005fa8: header: [1248:a] footer: [1248:a]
+0x800006488: header: [112:f] footer: [112:f]
+0x8000064f4: EOL
+heap end 0x8000064f7
+freelist [0] 0x800000000:->list:0x800000f10->Error:wrong free block size0.
+Checkheap failed on line 322
+bash-4.1$ exit
+exit
+
+Script done on Sun 20 Jul 2014 02:08:58 AM EDT
